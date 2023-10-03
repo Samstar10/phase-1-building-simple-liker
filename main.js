@@ -37,12 +37,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Handling full heart clicks
-  heartElement.addEventListener('click', () => {
-    if(heartElement.innerHTML === FULL_HEART){
-      heartElement.innerHTML = EMPTY_HEART
-      heartElement.classList.remove('activated-heart')
-    } 
-  });
+  // heartElement.addEventListener('click', () => {
+  //   if(heartElement.innerHTML === FULL_HEART){
+  //     heartElement.innerHTML = EMPTY_HEART
+  //     heartElement.classList.remove('activated-heart')
+  //   } 
+  // });
 });
 
 //------------------------------------------------------------------------------
